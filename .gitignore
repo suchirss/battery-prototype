@@ -137,3 +137,41 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# NestJS specific
+.nest/
+.webpack/
+
+# Database files (if using local SQLite)
+*.db
+*.sqlite
+*.sqlite3
+
+# Swagger/OpenAPI generated files
+swagger-spec.json
+api-docs.json
+
+# PM2 logs and configs
+pm2.config.js
+ecosystem.config.js
+.pm2/
+
+# Docker development files
+docker-compose.override.yml
+.dockerignore
+
+# IDE specific files
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
