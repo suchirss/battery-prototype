@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { HttpService } from '@nestjs/axios';
 import { firstValueFrom } from 'rxjs';
 
-interface CurrentWeather {
+export interface CurrentWeather {
   temperature: number;
   precipitation: number;
 }
